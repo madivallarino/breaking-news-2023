@@ -73,7 +73,7 @@ const fetchNews = async (
     // console.log(newsResponse.data.myQuery)
   
     const news = sortNewsByImage(newsResponse.data.myQuery)
-    console.log(news)
+    
     
 
     return news
