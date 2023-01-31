@@ -28,6 +28,6 @@ type Query {
      keywords: String
      limit: String
      countries: String
-     categories: String: Root
-    @rest(endpoint: "http://api.mediastack.com/v1/news")
+     categories: String
+     ): Root @rest(endpoint: "http://api.mediastack.com/v1/news")
 }
