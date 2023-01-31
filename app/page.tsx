@@ -8,7 +8,6 @@ async function Homepage() {
   const news: NewsResponse = response ||  await fetchNews(categories.join(','));
 
   
-  
 
   return (
     <div>
